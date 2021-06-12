@@ -1,0 +1,61 @@
+body {
+
+    background-color: #214F4B;
+
+}
+
+#nav-container {
+    overflow: hidden;
+    width: 100%;
+    text-align: right;
+}
+
+.nav-option {
+    text-align: right;
+    float: left;
+    display: block;
+    padding: 30px 30px;
+    color: white;
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+#nav-container a:hover {
+    color: black;
+  }
+
+
+.body-containers div {
+    float: left;
+}
+
+#left-side {
+    width: 60%;
+    top: 50%;
+
+}
+
+#right-side {
+    width: 40%;
+
+}
+
+#greeting {
+    padding-top: 200px;
+    color: white;
+    font-family: Verdana;
+    font-size: 45px;
+    width: 800px;
+}
+
+#memoji {
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.logos {
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
