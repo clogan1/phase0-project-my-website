@@ -4,25 +4,25 @@ body {
 
 }
 
-#nav-container {
-    overflow: hidden;
-    width: 100%;
-    text-align: right;
-}
 
-.nav-option {
-    text-align: right;
-    float: left;
-    display: block;
-    padding: 30px 30px;
+.topnav a {
+    float: right;
     color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
     font-family: Verdana;
-    font-size: 16px;
+  }
+
+.topnav a:hover {
+    font-weight: bold;
 }
 
-#nav-container a:hover {
-    color: black;
-  }
+.topnav a.active {
+    font-weight: bold;
+}
+   
 
 
 .body-containers div {
