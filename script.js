@@ -1,7 +1,3 @@
-const linkedIn = document.getElementById('Linkedin-logo');
-
-function clickAlert() {
-    alert('You are now leaving my site for my LinkedIn page');
+function sendEmail() {
+    window.location = "mailto:clairelogan16@gmail.com";
 }
-
-linkedIn.addEventListener('click', clickAlert);
