@@ -70,3 +70,24 @@ body {
     display: block;
 
 }
+
+#projectTable {
+    padding-top: 100px;
+    width: 90%;
+    table-layout: fixed;
+
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+tr:hover {background-color: #163432;}
+
+#projectTable a {
+    color: #89CEC8;
+}
+
