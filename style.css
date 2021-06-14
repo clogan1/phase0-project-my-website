@@ -39,8 +39,6 @@ header {
     height: 500px;
     top: 50%;
     padding-left: 40px;
-
-
 }
 
 #right-side {
@@ -50,6 +48,7 @@ header {
     padding-left: 20px;
     display: flex;
     align-items: center;
+
 
 }
 
@@ -84,6 +83,7 @@ header {
 #memoji {
     background-color: white;
     border-radius: 50%;
+    text-align: center;
 }
 
 
@@ -126,7 +126,7 @@ tr:hover {background-color: #163432;}
 
 #contactGreeting {
     padding-top: 100px;
-    width: 50%;
+    width: 800px;
     margin: auto;
     text-align: center;
     font-family: Verdana;
